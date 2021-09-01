@@ -602,4 +602,8 @@ git branch -M main
 git remote add origin https://github.com/coding-dojo-mern-uai/js-cheat-sheet.git
 # Sube cambios al repositorio remoto
 git push -u origin main
+# clona repositorio en un un directorio
+git clone https://github.com/coding-dojo-mern-uai/js-cheat-sheet.git jsFile
+# actualizar cambios 
+git pull origin main
 ```
