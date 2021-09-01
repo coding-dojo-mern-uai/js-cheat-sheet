@@ -592,4 +592,14 @@ export default PingButton
 ``` bash
 # Inicializar git en nuestra carpeta
 git init
+# Agrega todos los cambios
+git add --all
+# Empaquetar y etiquetar cambios
+git commit -m "message"
+# Cambia el nombre de la branch y la deja como principal (optional)
+git branch -M main
+# Agregar de un repositorio remoto, cuyo nombre es origin
+git remote add origin https://github.com/coding-dojo-mern-uai/js-cheat-sheet.git
+# Sube cambios al repositorio remoto
+git push -u origin main
 ```
